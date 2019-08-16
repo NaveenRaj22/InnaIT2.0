@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0">
+<testcase classname="InnaIT Application Login Scenarios" name="Verify user login with valid credentials" time="0">
+<system-out><![CDATA[Given User should launch the innait application.............................skipped
+Then User verify the client logo is present on the header...................skipped
+Then User verify the application logo is present on the header..............skipped
+Then User verify the fingerprint text message...............................skipped
+Then User verify the precision logo is present on the footer................skipped
+Then User click on the key icon.............................................skipped
+Then User verify the precision logo is present on the header................skipped
+Then User verify the innait logo is present on the header...................skipped
+Then User verify the Login page header matches - Employee Id................skipped
+When User enter the employeeid address......................................skipped
+Then User verify the Login page header matches - InnaIT Password............skipped
+And User enter the InnaIT Password..........................................skipped
+And User click on the login button..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Verify Innait Core page functionality" time="0">
+<failure message="The scenario has no steps"/>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Business Unit Creation" time="0">
+<system-out><![CDATA[When User click on Business Unit Menu.......................................skipped
+And User click Roles Plus button to add roles...............................skipped
+Then User click on the Business Unit field to enter.........................skipped
+Then User enter the Business Unit...........................................skipped
+Then User click on the description field to enter...........................skipped
+Then User enter the Description.............................................skipped
+And User click on the add button............................................skipped
+And User Click on the cancel button.........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Branch Location Creation" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[When User click on Branch Location..........................................skipped
+And User click on the Plus button to add location...........................skipped
+Then User click on the Location field to enter..............................skipped
+Then User enter the brach location..........................................skipped
+Then User click on the Location description field to enter..................skipped
+Then User enter the description.............................................skipped
+Then User click on the location timezone....................................skipped
+Then User enter the timezone................................................skipped
+Then User select the highlighted timezone...................................skipped
+And User click on the Location add button...................................undefined
+And User click on the cancel button in location.............................skipped
+]]></failure>
+</testcase>
+</testsuite>
