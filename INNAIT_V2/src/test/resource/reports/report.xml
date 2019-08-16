@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.576051">
+<testcase classname="InnaIT Application Login Scenarios" name="Verify user login with valid credentials" time="8.576051">
+<system-out><![CDATA[Given User should launch the innait application.............................passed
+Then User verify the client logo is present on the header...................passed
+Then User verify the application logo is present on the header..............passed
+Then User verify the fingerprint text message...............................passed
+Then User verify the precision logo is present on the footer................passed
+Then User click on the key icon.............................................passed
+Then User verify the precision logo is present on the header................passed
+Then User verify the innait logo is present on the header...................passed
+Then User verify the Login page header matches - Employee Id................passed
+When User enter the employeeid address......................................passed
+Then User verify the Login page header matches - InnaIT Password............passed
+And User enter the InnaIT Password..........................................passed
+And User click on the login button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

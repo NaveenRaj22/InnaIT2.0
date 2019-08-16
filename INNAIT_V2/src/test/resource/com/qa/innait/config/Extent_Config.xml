@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+	<configuration>
+		<encoding>UTF-8</encoding>
+		<documentTitle>InnaIT Extent Reports - v2.0</documentTitle>
+		<reportName>InnaIT Extent Reports</reportName>
+		<reportHeadline> - version 2.0</reportHeadline>
+		<theme>dark</theme>
+	</configuration>
+</extentreports>

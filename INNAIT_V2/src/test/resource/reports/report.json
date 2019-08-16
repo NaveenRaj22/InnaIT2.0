@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user login with valid credentials",
+        "description": "",
+        "id": "innait-application-login-scenarios;verify-user-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3206138486,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the innait application",
+            "match": {
+              "location": "InnaITLoginSteps.user_should_launch_the_innait_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140311006,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User verify the client logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_client_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50250752,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify the application logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_application_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31125517,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify the fingerprint text message",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_fingerprint_text_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28328396,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verify the precision logo is present on the footer",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_precision_logo_is_present_on_the_footer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1644269188,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the key icon",
+            "match": {
+              "location": "InnaITLoginSteps.user_click_on_the_key_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23789117,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verify the precision logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_precision_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23451936,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify the innait logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_innait_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25144633,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User verify the Login page header matches - Employee Id",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_Login_page_header_matches_Employee_Id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1167197042,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the employeeid address",
+            "match": {
+              "location": "InnaITLoginSteps.user_enter_the_employeeid_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25631334,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verify the Login page header matches - InnaIT Password",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_Login_page_header_matches_InnaIT_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1124412956,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the InnaIT Password",
+            "match": {
+              "location": "InnaITLoginSteps.user_enter_the_InnaIT_Pssword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086000881,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on the login button",
+            "match": {
+              "location": "InnaITLoginSteps.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "InnaIT Application Login Scenarios",
+    "description": "",
+    "id": "innait-application-login-scenarios",
+    "keyword": "Feature",
+    "uri": "Suite_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature_1"
+      },
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  }
+]
