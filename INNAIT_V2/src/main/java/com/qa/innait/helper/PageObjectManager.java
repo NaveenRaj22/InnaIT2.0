@@ -2,6 +2,7 @@ package com.qa.innait.helper;
 
 import org.openqa.selenium.WebDriver;
 
+import com.qa.innait.pom.InnaITCore;
 import com.qa.innait.pom.InnaITHomePage;
 import com.qa.innait.pom.InnaITLogin;
 
@@ -31,6 +32,16 @@ public class PageObjectManager {
 			il = new InnaITLogin(driver);
 		}
 		return il;
+
+	}
+	
+	public InnaITCore ic;
+
+	public InnaITCore getic() {
+		if (ic == null) {
+			ic = new InnaITCore(driver);
+		}
+		return ic;
 
 	}
 

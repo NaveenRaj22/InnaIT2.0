@@ -17,10 +17,10 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {
 		"com.cucumber.listener.ExtentCucumberFormatter:src\\test\\resource\\com\\qa\\innait\\reports\\InnaIT-Report.html",
-		"html:src\\test\\resource\\Reports", "json:src\\test\\resource\\reports\\report.json",
-		"junit:src\\test\\resource\\reports\\report.xml" },
+		"html:src\\test\\resource\\com\\qa\\innait\\reports", "json:src\\test\\resource\\com\\qa\\innait\\reports\\report.json",
+		"junit:src\\test\\resource\\com\\qa\\innait\\reports\\report.xml" },
 
-		features = "src\\test\\java\\com\\qa\\innait\\feature", glue = "com.qa.innait.stepdefinition", dryRun = false, strict = true, monochrome = true, tags = "@Feature")
+		features = "src\\test\\java\\com\\qa\\innait\\feature", glue = "com.qa.innait.stepdefinition", dryRun = true, strict = true, monochrome = true, tags = "@Feature")
 
 public class RunnerClass {
 
@@ -43,7 +43,7 @@ public class RunnerClass {
 		Reporter.setSystemInfo("Selenium", "3.7.0");
 		Reporter.setSystemInfo("Maven", "3.5.2");
 		Reporter.setSystemInfo("Java Version", "1.8.0_151");
-		//driver.quit();
+		driver.quit();
 	}
 
 }
