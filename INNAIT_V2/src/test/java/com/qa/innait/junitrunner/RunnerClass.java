@@ -20,7 +20,7 @@ import cucumber.api.junit.Cucumber;
 		"html:src\\test\\resource\\com\\qa\\innait\\reports", "json:src\\test\\resource\\com\\qa\\innait\\reports\\report.json",
 		"junit:src\\test\\resource\\com\\qa\\innait\\reports\\report.xml" },
 
-		features = "src\\test\\java\\com\\qa\\innait\\feature", glue = "com.qa.innait.stepdefinition", dryRun = true, strict = true, monochrome = true, tags = "@Feature")
+		features = "src\\test\\java\\com\\qa\\innait\\feature", glue = "com.qa.innait.stepdefinition", dryRun = false, strict = true, monochrome = true, tags = "@Feature")
 
 public class RunnerClass {
 

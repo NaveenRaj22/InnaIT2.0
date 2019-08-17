@@ -151,4 +151,122 @@ public class InnaITCore {
 		return loccnlbtn;
 	}
 
+	//DEPARTMENT
+	
+	@FindBy(xpath = "//li[@id='menu_department']//div[@class='item']")
+	private WebElement deptmenu;
+	
+	@FindBy(xpath = "//button[@id='department_btn_circle_add_row']")
+	private WebElement deptplusbtn;
+	
+	@FindBy(xpath = "//span[contains(text(),'Department Name')]")
+	private WebElement deptnamefield;
+	
+	@FindBy(xpath = "//input[@id='dept_department_name']")
+	private WebElement entdept;
+	
+	@FindBy(xpath = "//div[@id='dept_department_desc_row']//span[@class='lang'][contains(text(),'Description')]")
+	private WebElement deptdesfield;
+	
+	@FindBy(xpath = "//input[@id='dept_department_desc']")
+	private WebElement entdeptdes;
+	
+	@FindBy(xpath = "//button[@id='department_btn_add_row']")
+	private WebElement deptaddbtn;
+	
+	@FindBy(xpath = "//button[@id='department_btn_cancel_row']")
+	private WebElement deptcancelbtn;
+
+	public WebElement getDeptmenu() {
+		return deptmenu;
+	}
+
+	public WebElement getDeptplusbtn() {
+		return deptplusbtn;
+	}
+
+	public WebElement getDeptnamefield() {
+		return deptnamefield;
+	}
+
+	public WebElement getEntdept() {
+		return entdept;
+	}
+
+	public WebElement getDeptdesfield() {
+		return deptdesfield;
+	}
+
+	public WebElement getEntdeptdes() {
+		return entdeptdes;
+	}
+
+	public WebElement getDeptaddbtn() {
+		return deptaddbtn;
+	}
+
+	public WebElement getDeptcancelbtn() {
+		return deptcancelbtn;
+	}
+	
+	//DESIGNATION
+	
+	@FindBy(xpath = "//li[@id='menu_department']//div[@class='item']")
+	private WebElement desigmenu;
+	
+	@FindBy(xpath = "//button[@id='designation_btn_circle_add_row']")
+	private WebElement desigplusbtn;
+	
+	@FindBy(xpath = "//span[contains(text(),'Designation Name')]")
+	private WebElement designamefield;
+	
+	@FindBy(xpath = "//input[@id='desig_designation_name']")
+	private WebElement entdesig;
+	
+	@FindBy(xpath = "//div[@id='desig_designation_desc_row']//span[@class='lang'][contains(text(),'Description')]")
+	private WebElement desigdesfield;
+	
+	@FindBy(xpath = "//input[@id='desig_designation_desc']")
+	private WebElement entdesigdes;
+	
+	@FindBy(xpath = "//button[@id='designation_btn_add_row']")
+	private WebElement desigaddbtn;
+	
+	@FindBy(xpath = "//button[@id='designation_btn_cancel_row']")
+	private WebElement desigcancelbtn;
+
+	public WebElement getDesigmenu() {
+		return desigmenu;
+	}
+
+	public WebElement getDesigplusbtn() {
+		return desigplusbtn;
+	}
+
+	public WebElement getDesignamefield() {
+		return designamefield;
+	}
+
+	public WebElement getEntdesig() {
+		return entdesig;
+	}
+
+	public WebElement getDesigdesfield() {
+		return desigdesfield;
+	}
+
+	public WebElement getEntdesigdes() {
+		return entdesigdes;
+	}
+
+	public WebElement getDesigaddbtn() {
+		return desigaddbtn;
+	}
+
+	public WebElement getDesigcancelbtn() {
+		return desigcancelbtn;
+	}
+	
+	
+	
 }

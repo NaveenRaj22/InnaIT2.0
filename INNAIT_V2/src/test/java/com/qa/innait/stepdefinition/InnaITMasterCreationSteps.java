@@ -107,9 +107,9 @@ public class InnaITMasterCreationSteps extends BaseClass {
 			throw new RuntimeException();
 		}
 	}
-	
-	//BRANCH LOCATION
-	
+
+	// BRANCH LOCATION
+
 	@When("^User click on Branch Location$")
 	public void user_click_on_Branch_Location() throws Throwable {
 		try {
@@ -166,7 +166,7 @@ public class InnaITMasterCreationSteps extends BaseClass {
 			throw new RuntimeException();
 		}
 	}
-	
+
 	@Then("^User enter the description$")
 	public void user_enter_the_description() throws Throwable {
 		try {
@@ -213,16 +213,16 @@ public class InnaITMasterCreationSteps extends BaseClass {
 			throw new RuntimeException();
 		}
 	}
-	
+
 	@Then("^User click on the Location add button$")
 	public void user_click_on_the_Location_add_button() throws Throwable {
-	   try {
-		elementClick(pm.getic().getLocaddbtn());
-		   System.out.println("User click on the Location add button");
-	} catch (Exception e) {
-		e.printStackTrace();
-		throw new RuntimeException();
-	}
+		try {
+			elementClick(pm.getic().getLocaddbtn());
+			System.out.println("User click on the Location add button");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
 	}
 
 	@Then("^User click on the cancel button in location$")
@@ -236,4 +236,190 @@ public class InnaITMasterCreationSteps extends BaseClass {
 		}
 	}
 
+	// DEPARTMENT
+
+	@When("^User click on the Department menu$")
+	public void user_click_on_the_Department_menu() throws Throwable {
+		try {
+			Thread.sleep(1000);
+			elementClick(pm.getic().getDeptmenu());
+			System.out.println("User click on the Department menu");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the Plus button to add department$")
+	public void user_click_on_the_Plus_button_to_add_department() throws Throwable {
+		try {
+			elementClick(pm.getic().getDeptplusbtn());
+			System.out.println("User click on the Plus button to add department");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the Department field to enter$")
+	public void user_click_on_the_Department_field_to_enter() throws Throwable {
+		try {
+			elementClick(pm.getic().getDeptnamefield());
+			System.out.println("User click on the Department field to enter");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User enter the Department$")
+	public void user_enter_the_Department() throws Throwable {
+		try {
+			Thread.sleep(300);
+			inputValuestoWebelement(pm.getic().getEntdept(), "IoT");
+			System.out.println("User enter the Department");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the departmet decription field$")
+	public void user_click_on_the_departmet_decription_field() throws Throwable {
+		try {
+			elementClick(pm.getic().getDeptdesfield());
+			System.out.println("User click on the departmet decription field");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User enter the department description$")
+	public void user_enter_the_department_description() throws Throwable {
+		try {
+			Thread.sleep(300);
+			inputValuestoWebelement(pm.getic().getEntdeptdes(), "IoT");
+			System.out.println("User enter the department description");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the Department add button$")
+	public void user_click_on_the_Department_add_button() throws Throwable {
+		try {
+			elementClick(pm.getic().getLocaddbtn());
+			System.out.println("User click on the Department add button");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the cancel button to close department frame$")
+	public void user_click_on_the_cancel_button_to_close_department_frame() throws Throwable {
+		try {
+			elementClick(pm.getic().getLoccnlbtn());
+			System.out.println("User click on the cancel button to close department frame");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	// DESIGNATION
+
+	@When("^User click on the Designation menu$")
+	public void user_click_on_the_Designation_menu() throws Throwable {
+		try {
+			Thread.sleep(3000);
+			elementClick(pm.getic().getDesigmenu());
+			System.out.println("User click on the Designation menu");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the Plus button to add designation$")
+	public void user_click_on_the_Plus_button_to_add_designation() throws Throwable {
+		try {
+			elementClick(pm.getic().getDesigplusbtn());
+			System.out.println("User click on the Plus button to add designation");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the Designation field to enter$")
+	public void user_click_on_the_Designation_field_to_enter() throws Throwable {
+		try {
+			elementClick(pm.getic().getDesignamefield());
+			System.out.println("User click on the Designation field to enter");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User enter the Designation$")
+	public void user_enter_the_Designation() throws Throwable {
+		try {
+			Thread.sleep(500);
+			inputValuestoWebelement(pm.getic().getEntdesig(), "TEAM LEADER");
+			System.out.println("User enter the Designation");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the designation description field$")
+	public void user_click_on_the_designation_description_field() throws Throwable {
+		try {
+			elementClick(pm.getic().getDesigdesfield());
+			System.out.println("User click on the designation description field");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User enter the designation description$")
+	public void user_enter_the_designation_description() throws Throwable {
+		try {
+			Thread.sleep(500);
+			inputValuestoWebelement(pm.getic().getEntdesigdes(), "TEAM LEADER");
+			System.out.println("User enter the designation description");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+
+		}
+	}
+
+	@Then("^User click on the Designation add button$")
+	public void user_click_on_the_Designation_add_button() throws Throwable {
+		try {
+			elementClick(pm.getic().getDesigaddbtn());
+			System.out.println("User click on the Designation add button");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the cancel button to close the designation frame$")
+	public void user_click_on_the_cancel_button_to_close_the_designation_frame() throws Throwable {
+		try {
+			elementClick(pm.getic().getDesigcancelbtn());
+			System.out.println("User click on the cancel button to close the designation frame");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
 }
