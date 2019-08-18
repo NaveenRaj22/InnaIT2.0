@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="0">
+<testcase classname="InnaIT Application Login Scenarios" name="Verify user login with valid credentials" time="0">
+<system-out><![CDATA[Given User should launch the innait application.............................skipped
+Then User verify the client logo is present on the header...................skipped
+Then User verify the application logo is present on the header..............skipped
+Then User verify the fingerprint text message...............................skipped
+Then User verify the precision logo is present on the footer................skipped
+Then User click on the key icon.............................................skipped
+Then User verify the precision logo is present on the header................skipped
+Then User verify the innait logo is present on the header...................skipped
+Then User verify the Login page header matches - Employee Id................skipped
+When User enter the employeeid address......................................skipped
+Then User verify the Login page header matches - InnaIT Password............skipped
+And User enter the InnaIT Password..........................................skipped
+And User click on the login button..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Verify Innait Core page functionality" time="0">
+<failure message="The scenario has no steps"/>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Business Unit Creation" time="0">
+<system-out><![CDATA[When User click on Business Unit Menu.......................................skipped
+And User click Roles Plus button to add roles...............................skipped
+Then User click on the Business Unit field to enter.........................skipped
+Then User enter the Business Unit...........................................skipped
+Then User click on the description field to enter...........................skipped
+Then User enter the Description.............................................skipped
+And User click on the add button............................................skipped
+And User Click on the cancel button.........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Branch Location Creation" time="0">
+<system-out><![CDATA[When User click on Branch Location..........................................skipped
+And User click on the Plus button to add location...........................skipped
+Then User click on the Location field to enter..............................skipped
+Then User enter the brach location..........................................skipped
+Then User click on the Location description field to enter..................skipped
+Then User enter the description.............................................skipped
+Then User click on the location timezone....................................skipped
+Then User enter the timezone................................................skipped
+Then User select the highlighted timezone...................................skipped
+And User click on the Location add button...................................skipped
+And User click on the cancel button in location.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Department Creation" time="0">
+<system-out><![CDATA[When User click on the Department menu......................................skipped
+Then User click on the Plus button to add department........................skipped
+Then User click on the Department field to enter............................skipped
+Then User enter the Department..............................................skipped
+Then User click on the departmet decription field...........................skipped
+Then User enter the department description..................................skipped
+And User click on the Department add button.................................skipped
+And User click on the cancel button to close department frame...............skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Designation Creation" time="0">
+<system-out><![CDATA[When User click on the Designation menu.....................................skipped
+Then User click on the Plus button to add designation.......................skipped
+Then User click on the Designation field to enter...........................skipped
+Then User enter the Designation.............................................skipped
+Then User click on the designation description field........................skipped
+Then User enter the designation description.................................skipped
+And User click on the Designation add button................................skipped
+And User click on the cancel button to close the designation frame..........skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Role Creation" time="0">
+<system-out><![CDATA[When User click on the Role menu............................................skipped
+Then User click on the plus button to add role..............................skipped
+Then User click on the Role field to enter role.............................skipped
+Then User enter the role....................................................skipped
+Then User click on the role Description field...............................skipped
+Then User enter the role designation........................................skipped
+And User click on the ROle Add button.......................................skipped
+And User click on the cancel button ti close the role frame.................skipped
+]]></system-out>
+</testcase>
+<testcase classname="InnaIT Menu Scenarios" name="Domain &amp; Password Policy Creation" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[When User click on the Domain menu..........................................undefined
+Then User click on the plus button to add Password Policy...................undefined
+Then User click on the here text to add Password Policy.....................undefined
+Then User click on the plus button to add policy............................undefined
+Then User click on the Password Policy field to enter.......................undefined
+Then User enter the Password Policy Name....................................undefined
+Then User click on the Password Policy Description to enter.................undefined
+Then User enter the Password Policy Description.............................undefined
+Then User clcik on the Minimum Length field.................................undefined
+Then User enter the Minimum Length..........................................undefined
+Then User click on the Minimum Upper field..................................undefined
+Then User enter the Minimum Upper...........................................undefined
+Then User click on the Minimum Lower field..................................undefined
+Then User enter the Minimum Lower...........................................undefined
+Then User click on the Minimum Digit field..................................undefined
+Then User enter the Minimum Digit...........................................undefined
+Then User click on the Minimum Alpahbet field...............................undefined
+Then User enter the Minimum Alphabet........................................undefined
+Then User click on the Minimum Others field.................................undefined
+Then User enter the Minimum Others..........................................undefined
+Then User click on the Minimum Days field...................................undefined
+Then User enter the Minimum Days............................................undefined
+Then User click on the History Depth field..................................undefined
+Then User enter the History Depth...........................................undefined
+And User click on the Password Policy Add button............................undefined
+And User click on the Password Policy Cancel Button.........................undefined
+Then User click on the Domain menu again to enter...........................undefined
+Then User click on the Plus button to add domain............................undefined
+Then User click on the Domain Name Field to enter...........................undefined
+Then User enter the Domain Name.............................................undefined
+Then User click on the Domainn Description field............................undefined
+Then User enter the Domain Description......................................undefined
+Then User click on the Password Policy field................................undefined
+Then User enter the Password policy.........................................undefined
+Then User select highlighted Password Policy................................undefined
+Then User click on the Password Manager IP field............................undefined
+Then User enter the Password Manager IP.....................................undefined
+Then User click on the Password Manager Port field..........................undefined
+Then User enter the Password Manager Port...................................undefined
+And User click Domain Add button............................................undefined
+And User click on the cancel button ti close the Domain frame...............undefined
+]]></failure>
+</testcase>
+</testsuite>

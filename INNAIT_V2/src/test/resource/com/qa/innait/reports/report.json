@@ -1,0 +1,1105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user login with valid credentials",
+        "description": "",
+        "id": "innait-application-login-scenarios;verify-user-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should launch the innait application",
+            "match": {
+              "location": "InnaITLoginSteps.user_should_launch_the_innait_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User verify the client logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_client_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User verify the application logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_application_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User verify the fingerprint text message",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_fingerprint_text_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User verify the precision logo is present on the footer",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_precision_logo_is_present_on_the_footer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click on the key icon",
+            "match": {
+              "location": "InnaITLoginSteps.user_click_on_the_key_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User verify the precision logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_precision_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User verify the innait logo is present on the header",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_innait_logo_is_present_on_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User verify the Login page header matches - Employee Id",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_Login_page_header_matches_Employee_Id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User enter the employeeid address",
+            "match": {
+              "location": "InnaITLoginSteps.user_enter_the_employeeid_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User verify the Login page header matches - InnaIT Password",
+            "match": {
+              "location": "InnaITLoginSteps.user_verify_the_Login_page_header_matches_InnaIT_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User enter the InnaIT Password",
+            "match": {
+              "location": "InnaITLoginSteps.user_enter_the_InnaIT_Pssword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User click on the login button",
+            "match": {
+              "location": "InnaITLoginSteps.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "InnaIT Application Login Scenarios",
+    "description": "",
+    "id": "innait-application-login-scenarios",
+    "keyword": "Feature",
+    "uri": "Suite_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature_1"
+      },
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Innait Core page functionality",
+        "description": "",
+        "id": "innait-menu-scenarios;verify-innait-core-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario"
+      },
+      {
+        "line": 6,
+        "name": "Business Unit Creation",
+        "description": "",
+        "id": "innait-menu-scenarios;business-unit-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click on Business Unit Menu",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_Business_Unit_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click Roles Plus button to add roles",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_Roles_Plus_button_to_add_roles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click on the Business Unit field to enter",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Business_Unit_field_to_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enter the Business Unit",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_Business_Unit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click on the description field to enter",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_description_field_to_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enter the Description",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_Description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click on the add button",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User Click on the cancel button",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_Click_on_the_cancel_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Branch Location Creation",
+        "description": "",
+        "id": "innait-menu-scenarios;branch-location-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User click on Branch Location",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_Branch_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User click on the Plus button to add location",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Plus_button_to_add_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User click on the Location field to enter",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Location_field_to_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User enter the brach location",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_brach_location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User click on the Location description field to enter",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Location_description_field_to_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User enter the description",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User click on the location timezone",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_location_timezone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enter the timezone",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_timezone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User select the highlighted timezone",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_select_the_highlighted_timezone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User click on the Location add button",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Location_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User click on the cancel button in location",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_cancel_button_in_location()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Department Creation",
+        "description": "",
+        "id": "innait-menu-scenarios;department-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User click on the Department menu",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Department_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User click on the Plus button to add department",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Plus_button_to_add_department()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User click on the Department field to enter",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Department_field_to_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User enter the Department",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_Department()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User click on the departmet decription field",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_departmet_decription_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User enter the department description",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_department_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User click on the Department add button",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Department_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "User click on the cancel button to close department frame",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_cancel_button_to_close_department_frame()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Designation Creation",
+        "description": "",
+        "id": "innait-menu-scenarios;designation-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User click on the Designation menu",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Designation_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User click on the Plus button to add designation",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Plus_button_to_add_designation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User click on the Designation field to enter",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Designation_field_to_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User enter the Designation",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_Designation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User click on the designation description field",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_designation_description_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "User enter the designation description",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_designation_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "User click on the Designation add button",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Designation_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "User click on the cancel button to close the designation frame",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_cancel_button_to_close_the_designation_frame()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Role Creation",
+        "description": "",
+        "id": "innait-menu-scenarios;role-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "User click on the Role menu",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Role_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "User click on the plus button to add role",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_plus_button_to_add_role()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "User click on the Role field to enter role",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_Role_field_to_enter_role()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "User enter the role",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_role()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "User click on the role Description field",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_role_Description_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "User enter the role designation",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_enter_the_role_designation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "User click on the ROle Add button",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_ROle_Add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "User click on the cancel button ti close the role frame",
+            "match": {
+              "location": "InnaITMasterCreationSteps.user_click_on_the_cancel_button_ti_close_the_role_frame()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 64,
+        "name": "Domain \u0026 Password Policy Creation",
+        "description": "",
+        "id": "innait-menu-scenarios;domain-\u0026-password-policy-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "User click on the Domain menu",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67,
+            "name": "User click on the plus button to add Password Policy",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "User click on the here text to add Password Policy",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 69,
+            "name": "User click on the plus button to add policy",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "User click on the Password Policy field to enter",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 71,
+            "name": "User enter the Password Policy Name",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 72,
+            "name": "User click on the Password Policy Description to enter",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 73,
+            "name": "User enter the Password Policy Description",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 74,
+            "name": "User clcik on the Minimum Length field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 75,
+            "name": "User enter the Minimum Length",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 76,
+            "name": "User click on the Minimum Upper field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 77,
+            "name": "User enter the Minimum Upper",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 78,
+            "name": "User click on the Minimum Lower field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 79,
+            "name": "User enter the Minimum Lower",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80,
+            "name": "User click on the Minimum Digit field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 81,
+            "name": "User enter the Minimum Digit",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 82,
+            "name": "User click on the Minimum Alpahbet field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 83,
+            "name": "User enter the Minimum Alphabet",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 84,
+            "name": "User click on the Minimum Others field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 85,
+            "name": "User enter the Minimum Others",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 86,
+            "name": "User click on the Minimum Days field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 87,
+            "name": "User enter the Minimum Days",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 88,
+            "name": "User click on the History Depth field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 89,
+            "name": "User enter the History Depth",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 90,
+            "name": "User click on the Password Policy Add button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 91,
+            "name": "User click on the Password Policy Cancel Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 92,
+            "name": "User click on the Domain menu again to enter",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 93,
+            "name": "User click on the Plus button to add domain",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 94,
+            "name": "User click on the Domain Name Field to enter",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 95,
+            "name": "User enter the Domain Name",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 96,
+            "name": "User click on the Domainn Description field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 97,
+            "name": "User enter the Domain Description",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98,
+            "name": "User click on the Password Policy field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 99,
+            "name": "User enter the Password policy",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 100,
+            "name": "User select highlighted Password Policy",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 101,
+            "name": "User click on the Password Manager IP field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 102,
+            "name": "User enter the Password Manager IP",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 103,
+            "name": "User click on the Password Manager Port field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 104,
+            "name": "User enter the Password Manager Port",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 105,
+            "name": "User click Domain Add button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 106,
+            "name": "User click on the cancel button ti close the Domain frame",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "InnaIT Menu Scenarios",
+    "description": "",
+    "id": "innait-menu-scenarios",
+    "keyword": "Feature",
+    "uri": "Suite_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature_2"
+      },
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  }
+]

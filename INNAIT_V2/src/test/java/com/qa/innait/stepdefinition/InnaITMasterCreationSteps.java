@@ -19,7 +19,8 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@When("^User click on Business Unit Menu$")
 	public void user_click_on_Business_Unit_Menu() throws Throwable {
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(7000);
+			//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			elementClick(pm.getic().getBusinessmenu());
 			System.out.println("User click on Business Unit Menu");
 		} catch (Exception e) {
@@ -310,7 +311,8 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@Then("^User click on the Department add button$")
 	public void user_click_on_the_Department_add_button() throws Throwable {
 		try {
-			elementClick(pm.getic().getLocaddbtn());
+			Thread.sleep(500);
+			elementClick(pm.getic().getDeptaddbtn());
 			System.out.println("User click on the Department add button");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -321,7 +323,7 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@Then("^User click on the cancel button to close department frame$")
 	public void user_click_on_the_cancel_button_to_close_department_frame() throws Throwable {
 		try {
-			elementClick(pm.getic().getLoccnlbtn());
+			elementClick(pm.getic().getDeptcancelbtn());
 			System.out.println("User click on the cancel button to close department frame");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -334,7 +336,7 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@When("^User click on the Designation menu$")
 	public void user_click_on_the_Designation_menu() throws Throwable {
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(300);
 			elementClick(pm.getic().getDesigmenu());
 			System.out.println("User click on the Designation menu");
 		} catch (Exception e) {
@@ -357,7 +359,7 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@Then("^User click on the Designation field to enter$")
 	public void user_click_on_the_Designation_field_to_enter() throws Throwable {
 		try {
-			elementClick(pm.getic().getDesignamefield());
+			elementClick(pm.getic().getDesigfield());
 			System.out.println("User click on the Designation field to enter");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -368,8 +370,8 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@Then("^User enter the Designation$")
 	public void user_enter_the_Designation() throws Throwable {
 		try {
-			Thread.sleep(500);
-			inputValuestoWebelement(pm.getic().getEntdesig(), "TEAM LEADER");
+			Thread.sleep(300);
+			inputValuestoWebelement(pm.getic().getEntdesig(), "TEAM LEAD");
 			System.out.println("User enter the Designation");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -391,13 +393,12 @@ public class InnaITMasterCreationSteps extends BaseClass {
 	@Then("^User enter the designation description$")
 	public void user_enter_the_designation_description() throws Throwable {
 		try {
-			Thread.sleep(500);
-			inputValuestoWebelement(pm.getic().getEntdesigdes(), "TEAM LEADER");
+			Thread.sleep(300);
+			inputValuestoWebelement(pm.getic().getEntdesigdes(), "TEAM LEAD");
 			System.out.println("User enter the designation description");
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException();
-
 		}
 	}
 
@@ -422,4 +423,307 @@ public class InnaITMasterCreationSteps extends BaseClass {
 			throw new RuntimeException();
 		}
 	}
+
+	// ROLE
+
+	@When("^User click on the Role menu$")
+	public void user_click_on_the_Role_menu() throws Throwable {
+		try {
+			Thread.sleep(1000);
+			elementClick(pm.getic().getRolemenu());
+			System.out.println("User click on the Role menu");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the plus button to add role$")
+	public void user_click_on_the_plus_button_to_add_role() throws Throwable {
+		try {
+			elementClick(pm.getic().getRoleplusbtn());
+			System.out.println("User click on the plus button to add role");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the Role field to enter role$")
+	public void user_click_on_the_Role_field_to_enter_role() throws Throwable {
+		try {
+			elementClick(pm.getic().getRolefield());
+			System.out.println("User click on the Role field to enter role");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+
+	}
+
+	@Then("^User enter the role$")
+	public void user_enter_the_role() throws Throwable {
+		try {
+			Thread.sleep(500);
+			inputValuestoWebelement(pm.getic().getEntrole(), "superadmin");
+			System.out.println("User enter the role");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the role Description field$")
+	public void user_click_on_the_role_Description_field() throws Throwable {
+		try {
+			elementClick(pm.getic().getRoledesfield());
+			System.out.println("User click on the role Description field");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User enter the role designation$")
+	public void user_enter_the_role_designation() throws Throwable {
+		try {
+			Thread.sleep(300);
+			inputValuestoWebelement(pm.getic().getEntroledes(), "superadmin");
+			System.out.println("User enter the role designation");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the ROle Add button$")
+	public void user_click_on_the_ROle_Add_button() throws Throwable {
+		try {
+			elementClick(pm.getic().getRoleaddbtn());
+			System.out.println("User click on the ROle Add button");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+
+	@Then("^User click on the cancel button ti close the role frame$")
+	public void user_click_on_the_cancel_button_ti_close_the_role_frame() throws Throwable {
+		try {
+			elementClick(pm.getic().getRolecancelbtn());
+			System.out.println("User click on the cancel button ti close the role frame");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
+	
+	//DOMAIN & PASSWORD POLICY
+	
+	@When("^User click on the Domain menu$")
+	public void user_click_on_the_Domain_menu() throws Throwable {
+	
+	}
+
+	@Then("^User click on the plus button to add Password Policy$")
+	public void user_click_on_the_plus_button_to_add_Password_Policy() throws Throwable {
+	
+	}
+
+	@Then("^User click on the here text to add Password Policy$")
+	public void user_click_on_the_here_text_to_add_Password_Policy() throws Throwable {
+	
+	}
+
+	@Then("^User click on the plus button to add policy$")
+	public void user_click_on_the_plus_button_to_add_policy() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Password Policy field to enter$")
+	public void user_click_on_the_Password_Policy_field_to_enter() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Password Policy Name$")
+	public void user_enter_the_Password_Policy_Name() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Password Policy Description to enter$")
+	public void user_click_on_the_Password_Policy_Description_to_enter() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Password Policy Description$")
+	public void user_enter_the_Password_Policy_Description() throws Throwable {
+	
+	}
+
+	@Then("^User clcik on the Minimum Length field$")
+	public void user_clcik_on_the_Minimum_Length_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Length$")
+	public void user_enter_the_Minimum_Length() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Minimum Upper field$")
+	public void user_click_on_the_Minimum_Upper_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Upper$")
+	public void user_enter_the_Minimum_Upper() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Minimum Lower field$")
+	public void user_click_on_the_Minimum_Lower_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Lower$")
+	public void user_enter_the_Minimum_Lower() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Minimum Digit field$")
+	public void user_click_on_the_Minimum_Digit_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Digit$")
+	public void user_enter_the_Minimum_Digit() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Minimum Alpahbet field$")
+	public void user_click_on_the_Minimum_Alpahbet_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Alphabet$")
+	public void user_enter_the_Minimum_Alphabet() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Minimum Others field$")
+	public void user_click_on_the_Minimum_Others_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Others$")
+	public void user_enter_the_Minimum_Others() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Minimum Days field$")
+	public void user_click_on_the_Minimum_Days_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Minimum Days$")
+	public void user_enter_the_Minimum_Days() throws Throwable {
+	
+	}
+
+	@Then("^User click on the History Depth field$")
+	public void user_click_on_the_History_Depth_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the History Depth$")
+	public void user_enter_the_History_Depth() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Password Policy Add button$")
+	public void user_click_on_the_Password_Policy_Add_button() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Password Policy Cancel Button$")
+	public void user_click_on_the_Password_Policy_Cancel_Button() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Domain menu again to enter$")
+	public void user_click_on_the_Domain_menu_again_to_enter() throws Throwable {
+
+	}
+
+	@Then("^User click on the Plus button to add domain$")
+	public void user_click_on_the_Plus_button_to_add_domain() throws Throwable {
+
+	}
+
+	@Then("^User click on the Domain Name Field to enter$")
+	public void user_click_on_the_Domain_Name_Field_to_enter() throws Throwable {
+
+	}
+
+	@Then("^User enter the Domain Name$")
+	public void user_enter_the_Domain_Name() throws Throwable {
+
+	}
+
+	@Then("^User click on the Domainn Description field$")
+	public void user_click_on_the_Domainn_Description_field() throws Throwable {
+
+	}
+
+	@Then("^User enter the Domain Description$")
+	public void user_enter_the_Domain_Description() throws Throwable {
+
+	}
+
+	@Then("^User click on the Password Policy field$")
+	public void user_click_on_the_Password_Policy_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Password policy$")
+	public void user_enter_the_Password_policy() throws Throwable {
+	
+	}
+
+	@Then("^User select highlighted Password Policy$")
+	public void user_select_highlighted_Password_Policy() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Password Manager IP field$")
+	public void user_click_on_the_Password_Manager_IP_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Password Manager IP$")
+	public void user_enter_the_Password_Manager_IP() throws Throwable {
+	
+	}
+
+	@Then("^User click on the Password Manager Port field$")
+	public void user_click_on_the_Password_Manager_Port_field() throws Throwable {
+	
+	}
+
+	@Then("^User enter the Password Manager Port$")
+	public void user_enter_the_Password_Manager_Port() throws Throwable {
+	
+	}
+
+	@Then("^User click Domain Add button$")
+	public void user_click_Domain_Add_button() throws Throwable {
+	
+	}
+
+	@Then("^User click on the cancel button ti close the Domain frame$")
+	public void user_click_on_the_cancel_button_ti_close_the_Domain_frame() throws Throwable {
+
+	}
+
+
 }
